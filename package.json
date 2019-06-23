@@ -6,8 +6,8 @@
   "scripts": {
     "build": "rollup -c \"rollup_config.js\""
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mugen87",
+  "license": "MIT",
   "dependencies": {
     "three": "^0.105.2"
   },
