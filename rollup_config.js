@@ -5,7 +5,7 @@ export default {
 	output: [
 		{
 			format: 'umd',
-			name: 'APP',
+			name: 'LIB',
 			file: 'build/main.js'
 		}
 	],

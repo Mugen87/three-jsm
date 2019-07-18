@@ -11,7 +11,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 let camera, scene, renderer;
 
-class  APP {
+class App {
 
 	init() {
 
@@ -23,7 +23,7 @@ class  APP {
 		const geometry = new BoxBufferGeometry( 200, 200, 200 );
 		const material = new MeshBasicMaterial();
 
-		mesh = new Mesh( geometry, material );
+		const mesh = new Mesh( geometry, material );
 		scene.add( mesh );
 
 		renderer = new WebGLRenderer( { antialias: true } );
@@ -57,4 +57,4 @@ function animate() {
 
 }
 
-export { APP }
+export { App }

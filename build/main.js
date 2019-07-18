@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
 	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(global = global || self, factory(global.APP = {}));
+	(global = global || self, factory(global.LIB = {}));
 }(this, function (exports) { 'use strict';
 
 	// Polyfills
@@ -49361,7 +49361,7 @@
 
 	let camera, scene, renderer;
 
-	class  APP {
+	class App {
 
 		init() {
 
@@ -49373,7 +49373,7 @@
 			const geometry = new BoxBufferGeometry( 200, 200, 200 );
 			const material = new MeshBasicMaterial();
 
-			mesh = new Mesh( geometry, material );
+			const mesh = new Mesh( geometry, material );
 			scene.add( mesh );
 
 			renderer = new WebGLRenderer( { antialias: true } );
@@ -49407,7 +49407,7 @@
 
 	}
 
-	exports.APP = APP;
+	exports.App = App;
 
 	Object.defineProperty(exports, '__esModule', { value: true });
 
