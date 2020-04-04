@@ -8,4 +8,4 @@ Include the resulting build file into a HTML page and run the following code to 
     const app = new LIB.App();
     app.init();
 
-Demo: https://jsfiddle.net/Lowsc0jv/
+Demo: https://jsfiddle.net/n0qot9La/1/
