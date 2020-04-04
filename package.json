@@ -9,10 +9,10 @@
   "author": "Mugen87",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.105.2"
+    "three": "^0.115.0"
   },
   "devDependencies": {
-    "rollup": "^1.16.2",
-    "rollup-plugin-node-resolve": "^5.0.4"
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^2.3.2"
   }
 }
