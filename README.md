@@ -8,6 +8,6 @@ Include the resulting build file into a HTML page and run the following code to 
     const app = new MYAPP.App();
     app.init();
 
-Demo: https://jsfiddle.net/n0qot9La/1/
+Demo: https://jsfiddle.net/r8fw2m4c/
 
 You can also start a local server by using `npm start` and then open http://localhost:5000/app/.
