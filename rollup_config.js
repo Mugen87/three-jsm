@@ -6,8 +6,8 @@ export default {
 	output: [
 		{
 			format: 'umd',
-			name: 'LIB',
-			file: 'build/main.js'
+			name: 'MYAPP',
+			file: 'build/bundle.js'
 		}
 	],
 	plugins: [ resolve(), terser() ]
