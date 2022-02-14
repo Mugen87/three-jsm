@@ -1,5 +1,5 @@
 import {
-	BoxBufferGeometry,
+	BoxGeometry,
 	Mesh,
 	MeshBasicMaterial,
 	PerspectiveCamera,
@@ -15,12 +15,12 @@ class App {
 
 	init() {
 
-		camera = new PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 1000 );
-		camera.position.z = 400;
+		camera = new PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
+		camera.position.z = 4;
 
 		scene = new Scene();
 
-		const geometry = new BoxBufferGeometry( 200, 200, 200 );
+		const geometry = new BoxGeometry();
 		const material = new MeshBasicMaterial();
 
 		const mesh = new Mesh( geometry, material );
