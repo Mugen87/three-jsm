@@ -1,8 +1,17 @@
 # three-jsm
 Simple project example using the ES6 modules of three.js.
 
----
+## Setup
+Download [Node.js](https://nodejs.org/en/download/).
+Run this followed commands:
 
-After downloading the repository, execute `npm install` once in the root directory to install all dependencies.
+``` bash
+# Install dependencies (only for first time)
+npm i
 
-You can then start a local server by using `npm start` and open `http://localhost:3000/app/` for testing.
+# Serve at localhost:8080
+npm run dev
+
+# Build for production in the dist/ directory
+npm run build
+```
