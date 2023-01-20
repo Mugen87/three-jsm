@@ -11,4 +11,9 @@ You can then start a local server either by
 
 or 
 
-- using `http-server -p 3000` and open `http://localhost:3000/` for deploying. 
+- using `http-server -p 3000` and open `http://localhost:3000/` for deploying.
+
+
+Result should be like this. The plane is loaded with GLTFLoader. 
+
+![](./result.jpg)
