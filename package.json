@@ -8,13 +8,14 @@
   },
   "author": "Mugen87",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "three": "0.150.1"
+    "three": "0.161.0"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "14.0.1",
-    "rollup": "2.79.0",
-    "rollup-plugin-terser": "7.0.2",
-    "serve": "14.2.0"
+    "rollup": "4.9.6",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-terser": "0.4.4",
+    "serve": "14.2.1"
   }
 }
