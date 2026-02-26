@@ -13,7 +13,7 @@
     "three": "0.161.0"
   },
   "devDependencies": {
-    "rollup": "4.9.6",
+    "rollup": "4.59.0",
     "@rollup/plugin-node-resolve": "15.2.3",
     "@rollup/plugin-terser": "0.4.4",
     "serve": "14.2.1"
