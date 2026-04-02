@@ -15,7 +15,7 @@
   "devDependencies": {
     "rollup": "4.9.6",
     "@rollup/plugin-node-resolve": "15.2.3",
-    "@rollup/plugin-terser": "0.4.4",
+    "@rollup/plugin-terser": "1.0.0",
     "serve": "14.2.1"
   }
 }
